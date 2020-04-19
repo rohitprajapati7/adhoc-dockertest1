@@ -1,0 +1,18 @@
+## i use my local system
+
+
+access your webapplication and from your browser and count no of docker keyword shown in output:
+
+
+no of keyword =3
+
+
+
+
+
+
+docker image=docker build -t dockerashu/ckad:v2 -f dockerfile1.txt .
+
+ docker container=docker run -d --name rohitc3q3 -p 4478:80 dockerashu/ckad:v2
+
+for access a web application = http://192.168.99.100:4478/
